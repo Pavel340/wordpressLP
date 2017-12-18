@@ -24,3 +24,43 @@ p
 	background-color: $color
 .color_border
 	border-color: $color
+
+.main_color_bg
+	background-color: $main_color
+
+.loader
+	background: none repeat scroll 0 0 transparent
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loaderInner
+		background-image: url("../../../img/loader.gif")
+		background-repeat: no-repeat
+		background-position: center center
+		height: 256px
+		width: 256px
+		margin-top: -128px
+		margin-left: -128px
+		left: 50%
+		top: 50%
+		position: absolute
+
+svg
+	path
+		fill: $main_color
+
+.toggle-mnu
+	background-color: $main_color
+
+.top_mnu
+	a:hover
+		color: $color
+		background-color: rgba(255, 255, 255, .05)
+	a
+		+kerning(4)
+

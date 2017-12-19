@@ -36,12 +36,17 @@ section,
 		z-index: 100
 
 .toggle-mnu
+	background-color: #000000
 	width: 60px
 	height: 60px
 	float: right
-	position: relative
+	position: fixed
 	z-index: 100
 	border: none
+	right: 20px
+	top: 20px
+	span
+		display: block
 
 $w: 28px
 $h: 3px
@@ -106,7 +111,7 @@ $h: 3px
 	position: fixed
 	width: 100%
 	height: 100%
-	background-color: rgba(0, 0, 0, .9)
+	background-color: rgba(0, 0, 0, .75)
 	z-index: 50
 	right: 0
 	top: 0
@@ -125,3 +130,40 @@ $h: 3px
 			padding: 20px 0
 			text-transform: uppercase
 			font-size: 12px
+			+transition(all .5s ease)
+
+.top_wrapper
+	display: table
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 10
+	.top_descr
+		display: table-row
+		.top_centered
+			display: table-cell
+			text-align: center
+			vertical-align: middle
+	.top_text
+		display: inline-block
+		h1
+			display: inline-block
+			padding: 10px 35px
+			color: #fff
+			border: 8px solid #ffffff
+			text-transform: uppercase
+			font-weight: bold
+			font-size: 2.8em
+			background-color: rgba(0, 0, 0, .4)
+			box-shadow: rgba(0, 0, 0, .3) 0 0 0 1000px
+			margin-left: 20px
+			margin-right: 20px
+		p
+			margin: 0
+			text-transform: uppercase
+
+.h_opacify
+	opacity: .3
+	+transition(all .2s ease)

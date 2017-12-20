@@ -124,6 +124,15 @@ $h: 3px
 	ul
 		margin-top: 180px
 		text-align: center
+		li
+			&:nth-child(1) a
+				+animation-duration(.5s)
+			&:nth-child(2) a
+				+animation-duration(1s)
+			&:nth-child(3) a
+				+animation-duration(1.5s)
+			&:nth-child(4) a
+				+animation-duration(2s)
 		a
 			color: #fff
 			display: block
@@ -157,13 +166,44 @@ $h: 3px
 			font-weight: bold
 			font-size: 2.8em
 			background-color: rgba(0, 0, 0, .4)
-			box-shadow: rgba(0, 0, 0, .3) 0 0 0 1000px
 			margin-left: 20px
 			margin-right: 20px
+			+animation-delay(.5s)
 		p
 			margin: 0
 			text-transform: uppercase
+			+animation-delay(1s)
 
 .h_opacify
 	opacity: .3
 	+transition(all .2s ease)
+
+section
+	padding: 70px 0 90px
+	h2
+		text-align: center
+		font-size: 24px
+		text-transform: uppercase
+		margin: 0 0 15px
+
+.s_descr_wrap
+	text-align: center
+	.s_descr
+		display: inline-block
+		text-transform: uppercase
+		font-size: 12px
+		position: relative
+		margin-bottom: 130px
+		&::after
+			content: ''
+			width: 150px
+			height: 1px
+			position: absolute
+			left: 50%
+			margin-left: -75px
+			margin-top: 60px
+
+.main_footer
+	padding: 50px 0
+	font-size: 13px
+	font-weight: 300

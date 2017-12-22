@@ -11,6 +11,9 @@ $(document).ready(function() {
 	$(".animation_2").animated("fadeInLeft", "fadeOutLeft");
 	$(".animation_3").animated("fadeInRight", "fadeOutRight");
 
+	$(".right .resume_item").animated("fadeInLeft", "fadeOutLeft");
+	$(".left .resume_item").animated("fadeInRight", "fadeOutRight");
+
 	heightDetect();
 
 	$(".top_mnu>ul>li>a").click(function () {

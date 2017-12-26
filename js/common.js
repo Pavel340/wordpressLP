@@ -28,6 +28,7 @@ $(document).ready(function() {
 	$(".top_mnu>ul>li>a").click(function () {
 		$(".top_mnu").fadeOut(600);
 		$(".sandwich").toggleClass("active");
+		$(".top_text").removeClass("h_opacify");
 	});
 
 	$(".toggle-mnu").click(function () {
@@ -47,6 +48,10 @@ $(document).ready(function() {
 		$(this).find("a").attr("href", "#work_" + i);
 		$(this).find(".port_descr").attr("id", "work_" + i);
 	});
+
+	$("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
+
+	$(".top_mnu ul a").mPageScroll2id();
 
 });
 

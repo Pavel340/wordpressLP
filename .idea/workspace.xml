@@ -2,16 +2,837 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029c2337-5579-4856-9782-9abc614fd072" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jqBootstrapValidation/jqBootstrapValidation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/myTheme/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/myTheme/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/myTheme/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/myTheme/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/myTheme/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/myTheme/theme-options.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/_bourbon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_border-color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_border-style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_border-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_ellipsis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_font-stacks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_margin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_padding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_retina-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_text-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_timing-functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_triangle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/addons/_word-wrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_appearance.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_backface-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_background-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_background.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_border-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_calc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_columns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_flex-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_font-face.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_font-feature-settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_hidpi-media-query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_hyphens.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_image-rendering.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_keyframes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_linear-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_perspective.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_placeholder.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_radial-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_selection.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_text-decoration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_transform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/css3/_user-select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_assign-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_contains-falsy.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_contains.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_is-length.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_is-light.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_is-number.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_is-size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_modular-scale.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_px-to-rem.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_shade.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_strip-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_tint.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_transition-property-name.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/functions/_unpack.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_convert-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_directional-values.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_font-source-declaration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_gradient-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_linear-angle-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_linear-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_linear-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_linear-side-corner-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_radial-arg-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_radial-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_radial-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_render-gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_shape-size-stripper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/helpers/_str-to-num.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/settings/_asset-pipeline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/settings/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/bourbon/settings/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/fonts.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/main.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sass/skins/tomato.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/skins/tomato.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/skins/tomato.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayBold/RalewayBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayBold/RalewayBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayBold/RalewayBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayLight/RalewayLight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayLight/RalewayLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayLight/RalewayLight.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayRegular/RalewayRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayRegular/RalewayRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewayRegular/RalewayRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewaySemiBold/RalewaySemiBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewaySemiBold/RalewaySemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/RalewaySemiBold/RalewaySemiBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-images/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio-images/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/animate/animate-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/animate/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/html5shiv/es5-shim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/html5shiv/html5shiv-printshiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/html5shiv/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/html5shiv/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jqBootstrapValidation/jqBootstrapValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jquery/jquery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/linea/linea-basic-10.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/linea/linea-basic-10.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/linea/linea-basic-10.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/linea/linea-basic-10.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/linea/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mixitup/mixitup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/parallax/parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/respond/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/scroll2id/PageScroll2id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/waypoints/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/___MyTheme_ready.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/_bourbon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_border-color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_border-style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_border-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_ellipsis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_font-stacks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_margin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_padding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_retina-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_text-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_timing-functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_triangle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/addons/_word-wrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_appearance.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_backface-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_background-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_background.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_border-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_calc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_columns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_flex-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_font-face.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_font-feature-settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_hidpi-media-query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_hyphens.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_image-rendering.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_keyframes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_linear-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_perspective.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_placeholder.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_radial-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_selection.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_text-decoration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_transform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/css3/_user-select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_assign-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_contains-falsy.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_contains.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_is-length.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_is-light.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_is-number.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_is-size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_modular-scale.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_px-to-rem.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_shade.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_strip-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_tint.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_transition-property-name.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/functions/_unpack.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_convert-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_directional-values.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_font-source-declaration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_gradient-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_linear-angle-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_linear-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_linear-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_linear-side-corner-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_radial-arg-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_radial-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_radial-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_render-gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_shape-size-stripper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/helpers/_str-to-num.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/settings/_asset-pipeline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/settings/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/bourbon/settings/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/fonts.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/main.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/skins/blue.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/skins/pink.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/skins/purple.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/sass/skins/tomato.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/skins/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/skins/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/skins/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/css/skins/tomato.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayBold/RalewayBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayBold/RalewayBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayBold/RalewayBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayLight/RalewayLight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayLight/RalewayLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayLight/RalewayLight.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayRegular/RalewayRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayRegular/RalewayRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewayRegular/RalewayRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewaySemiBold/RalewaySemiBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewaySemiBold/RalewaySemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/fonts/RalewaySemiBold/RalewaySemiBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/portfolio-images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/portfolio-images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/portfolio-images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/portfolio-images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/portfolio-images/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/portfolio-images/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/img/preloader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/animate/animate-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/animate/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/bootstrap/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/html5shiv/es5-shim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/html5shiv/html5shiv-printshiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/html5shiv/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/html5shiv/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/jqBootstrapValidation/jqBootstrapValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/jquery/jquery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/linea/fonts/linea-basic-10.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/linea/fonts/linea-basic-10.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/linea/fonts/linea-basic-10.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/linea/fonts/linea-basic-10.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/linea/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/magnific-popup/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/magnific-popup/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/mixitup/mixitup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/parallax/parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/respond/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/scroll2id/PageScroll2id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_clean_html/libs/waypoints/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/_mockup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayBold/RalewayBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayBold/RalewayBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayBold/RalewayBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayLight/RalewayLight.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayLight/RalewayLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayLight/RalewayLight.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayRegular/RalewayRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayRegular/RalewayRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewayRegular/RalewayRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewaySemiBold/RalewaySemiBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewaySemiBold/RalewaySemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/fonts/RalewaySemiBold/RalewaySemiBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/PageScroll2id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/animate-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/_bourbon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_border-color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_border-style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_border-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_ellipsis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_font-stacks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_margin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_padding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_retina-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_text-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_timing-functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_triangle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/addons/_word-wrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_appearance.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_backface-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_background-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_background.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_border-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_calc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_columns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_flex-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_font-face.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_font-feature-settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_hidpi-media-query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_hyphens.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_image-rendering.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_keyframes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_linear-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_perspective.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_placeholder.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_radial-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_selection.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_text-decoration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_transform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/css3/_user-select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_assign-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_contains-falsy.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_contains.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_is-length.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_is-light.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_is-number.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_is-size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_modular-scale.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_px-to-rem.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_shade.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_strip-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_tint.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_transition-property-name.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/functions/_unpack.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_convert-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_directional-values.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_font-source-declaration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_gradient-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_linear-angle-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_linear-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_linear-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_linear-side-corner-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_radial-arg-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_radial-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_radial-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_render-gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_shape-size-stripper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/helpers/_str-to-num.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/settings/_asset-pipeline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/settings/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/bourbon/settings/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/html5shiv/es5-shim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/html5shiv/html5shiv-printshiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/html5shiv/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/html5shiv/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/jqBootstrapValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/jquery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_ICONFONT/fonts/linea-basic-10.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_ICONFONT/fonts/linea-basic-10.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_ICONFONT/fonts/linea-basic-10.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_ICONFONT/fonts/linea-basic-10.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_ICONFONT/icons-reference.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_ICONFONT/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_accelerator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_alarm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_anticlockwise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_archive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_archive_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_ban.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_battery_charge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_battery_empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_battery_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_battery_half.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_bolt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_book_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_book_pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_bookmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_calculator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_cards_diamonds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_cards_hearts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_case.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_chronometer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_clessidre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_clockwise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_clubs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_compass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_cup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_diamonds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_display.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_exclamation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_eye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_eye_closed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_female.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_flag1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_flag2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_floppydisk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_folder_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_gear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_geolocalize-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_geolocalize-05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_globe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_gunsight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_hammer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_headset.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_heart_broken.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_helm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_ipod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_joypad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_key.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_keyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_laptop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_life_buoy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_lightbulb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_lock_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_magic_mouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_magnifier.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_magnifier_minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_magnifier_plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_mail_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_mail_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_mail_open_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_male.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_message_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_message_txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_mixer2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_mouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_notebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_notebook_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_notebook_pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_paperplane.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_pencil_ruler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_pencil_ruler_pen .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_picture_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_pin1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_pin2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_postcard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_postcard_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_printer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_question.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_server.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_server2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_server_cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_server_download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_server_upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_settings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_sheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_sheet_multiple .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_sheet_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_sheet_pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_sheet_txt .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_signs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_smartphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_spades.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_spread.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_spread_bookmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_spread_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_spread_text_bookmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_tablet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_target.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_todo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_todo_pen .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_todo_pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_todo_txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_todolist_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_todolist_pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_trashcan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_trashcan_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_trashcan_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_trashcan_remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_usb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_watch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_webpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_webpage_img_txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_webpage_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_webpage_txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_PNG 64/basic_world.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_accelerator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_alarm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_anchor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_anticlockwise.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_archive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_archive_full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_ban.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_battery_charge.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_battery_empty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_battery_full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_battery_half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_bolt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_book_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_book_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_calculator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_cards_diamonds.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_cards_hearts.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_case.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_chronometer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_clessidre.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_clockwise.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_clubs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_compass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_cup.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_diamonds.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_display.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_download.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_exclamation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_eye.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_eye_closed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_flag1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_flag2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_floppydisk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_folder_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_gear.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_geolocalize-01.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_geolocalize-05.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_globe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_gunsight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_hammer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_headset.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_heart_broken.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_helm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_home.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_info.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_ipod.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_joypad.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_key.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_keyboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_laptop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_life_buoy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_lightbulb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_link.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_lock_open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_magic_mouse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_magnifier.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_magnifier_minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_magnifier_plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_mail_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_mail_open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_mail_open_text.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_male.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_map.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_message.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_message_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_message_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_mixer2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_mouse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_notebook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_notebook_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_notebook_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_paperplane.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_pencil_ruler.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_pencil_ruler_pen .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_photo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_picture.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_picture_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_pin1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_pin2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_postcard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_postcard_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_printer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_question.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_rss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_server.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_server2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_server_cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_server_download.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_server_upload.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_settings.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_share.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_sheet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_sheet_multiple .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_sheet_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_sheet_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_sheet_txt .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_signs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_smartphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_spades.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_spread.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_spread_bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_spread_text.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_spread_text_bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_star.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_tablet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_target.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_todo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_todo_pen .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_todo_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_todo_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_todolist_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_todolist_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_trashcan.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_trashcan_full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_trashcan_refresh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_trashcan_remove.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_upload.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_usb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_watch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_webpage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_webpage_img_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_webpage_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_webpage_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG expanded/basic_world.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_accelerator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_alarm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_anchor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_anticlockwise.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_archive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_archive_full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_ban.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_battery_charge.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_battery_empty.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_battery_full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_battery_half.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_bolt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_book_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_book_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_calculator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_cards_diamonds.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_cards_hearts.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_case.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_chronometer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_clessidre.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_clockwise.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_clubs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_compass.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_cup.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_diamonds.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_display.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_download.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_exclamation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_eye.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_eye_closed.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_female.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_flag1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_flag2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_floppydisk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_folder_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_gear.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_geolocalize-01.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_geolocalize-05.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_globe.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_gunsight.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_hammer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_headset.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_heart.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_heart_broken.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_helm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_home.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_info.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_ipod.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_joypad.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_key.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_keyboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_laptop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_life_buoy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_lightbulb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_link.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_lock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_lock_open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_magic_mouse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_magnifier.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_magnifier_minus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_magnifier_plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_mail_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_mail_open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_mail_open_text.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_male.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_map.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_message.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_message_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_message_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_mixer2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_mouse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_notebook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_notebook_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_notebook_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_paperplane.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_pencil_ruler.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_pencil_ruler_pen .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_photo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_picture.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_picture_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_pin1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_pin2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_postcard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_postcard_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_printer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_question.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_rss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_server.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_server2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_server_cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_server_download.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_server_upload.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_settings.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_share.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_sheet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_sheet_multiple .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_sheet_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_sheet_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_sheet_txt .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_signs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_smartphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_spades.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_spread.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_spread_bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_spread_text.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_spread_text_bookmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_star.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_tablet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_target.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_todo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_todo_pen .svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_todo_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_todo_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_todolist_pen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_todolist_pencil.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_trashcan.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_trashcan_full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_trashcan_refresh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_trashcan_remove.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_upload.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_usb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_watch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_webpage.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_webpage_img_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_webpage_multiple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_webpage_txt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/_SVG/basic_world.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/linea_basic/linea_basic_1.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/magnific-popup/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/magnific-popup/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/mixitup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/respond/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/theme-options/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/theme-options/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/theme-options/theme-options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/libs/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/portfolio-images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/portfolio-images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/portfolio-images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/portfolio-images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/portfolio-images/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/portfolio-images/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/wireframe.cc-fEKu0b.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/main.sass" afterPath="$PROJECT_DIR$/css/sass/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/skins/tomato.sass" afterPath="$PROJECT_DIR$/css/sass/skins/tomato.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/tomato.css" afterPath="$PROJECT_DIR$/css/skins/tomato.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/tomato.css.map" afterPath="$PROJECT_DIR$/css/skins/tomato.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,100 +842,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7118003">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="127">
-                  <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-                  <folding>
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#21413#21419#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/common.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/sass/main.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="392" column="37" lean-forward="false" selection-start-line="392" selection-start-column="37" selection-end-line="392" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="tomato.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/sass/skins/tomato.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="150" column="26" lean-forward="false" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fonts.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/sass/fonts.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/media.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>top_text</find>
       <find>soc</find>
       <find>main_f</find>
+      <find>wp_get_theme</find>
+      <find>person</find>
+      <find>portfolio_item</find>
+      <find>some</find>
+      <find>sample_theme_options</find>
+      <find>add_</find>
+      <find>theme_options_validate</find>
+      <find>setting</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,6 +879,20 @@
         <option value="$PROJECT_DIR$/css/sass/main.sass" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/css/sass/skins/purple.sass" />
+        <option value="$PROJECT_DIR$/css/sass/skins/pink.sass" />
+        <option value="$PROJECT_DIR$/css/sass/skins/blue.sass" />
+        <option value="$PROJECT_DIR$/css/skins/blue.css" />
+        <option value="$PROJECT_DIR$/wordpress/wp-config.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/function.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/css/sass/main.sass" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/myTheme/theme-options.php" />
       </list>
     </option>
   </component>
@@ -146,7 +909,9 @@
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -173,31 +938,7 @@
             <path>
               <item name="landingPageFromWordpress" type="b2602c69:ProjectViewProjectNode" />
               <item name="landingPageFromWordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="landingPageFromWordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landingPageFromWordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jqBootstrapValidation" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="landingPageFromWordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landingPageFromWordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="material" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="landingPageFromWordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landingPageFromWordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="material" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_clean_html" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="landingPageFromWordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landingPageFromWordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="material" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_clean_html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -208,18 +949,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\libs" />
-      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\img" />
-      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\libs\waypoints" />
-      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\libs\scroll2id" />
-      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\libs\mixitup" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\libs\linea" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\wp-content\themes\myTheme" />
+      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\css\sass\skins" />
+      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\css\skins" />
+      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\libs" />
+      <recent name="C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,25 +995,27 @@
       <workItem from="1513929149939" duration="4212000" />
       <workItem from="1514185317884" duration="5434000" />
       <workItem from="1514273734383" duration="3728000" />
+      <workItem from="1514359666797" duration="6276000" />
+      <workItem from="1514368028441" duration="17000" />
+      <workItem from="1514445440824" duration="9902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34247000" />
+    <option name="totallyTimeSpent" value="50442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -288,330 +1033,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\OpenServer\OpenServer\domains\Project\landingPageFromWordpress</wordpressPath>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/sass/skins/tomato.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#21413#21419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/skins/tomato.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#21413#21419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" column="62" lean-forward="false" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#21413#21419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/skins/tomato.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_mockup.jpg" />
-    <entry file="file://$PROJECT_DIR$/background.jpg" />
-    <entry file="file://$PROJECT_DIR$/logo.svg" />
-    <entry file="file://$PROJECT_DIR$/photo.jpg" />
-    <entry file="file://$PROJECT_DIR$/wireframe.cc-fEKu0b.jpg" />
-    <entry file="file://$PROJECT_DIR$/_clean_html/index.html" />
-    <entry file="file://$PROJECT_DIR$/__clean_html_original/index.html" />
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/bootstrap-grid.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/parallax/parallax.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/animate/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jquery/jquery-2.1.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/magnific-popup/magnific-popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/mixitup/mixitup.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/scroll2id/PageScroll2id.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2959">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/waypoints/waypoints.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/loader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/sass/fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="408" column="8" lean-forward="false" selection-start-line="408" selection-start-column="7" selection-end-line="408" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/animate/animate-css.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/bootstrap/bootstrap-grid.min.css" />
+    <entry file="file://$PROJECT_DIR$/libs/parallax/parallax.min.js" />
+    <entry file="file://$PROJECT_DIR$/libs/animate/animate.min.css" />
+    <entry file="file://$PROJECT_DIR$/libs/jquery/jquery-2.1.3.min.js" />
+    <entry file="file://$PROJECT_DIR$/libs/font-awesome/css/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/libs/magnific-popup/magnific-popup.css" />
+    <entry file="file://$PROJECT_DIR$/libs/mixitup/mixitup.min.js" />
+    <entry file="file://$PROJECT_DIR$/libs/scroll2id/PageScroll2id.min.js" />
+    <entry file="file://$PROJECT_DIR$/libs/waypoints/waypoints.min.js" />
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/img/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/loader.gif" />
+    <entry file="file://$PROJECT_DIR$/material/logo.svg" />
+    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/sass/fonts.sass" />
+    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/media.css" />
+    <entry file="file://$PROJECT_DIR$/css/sass/fonts.sass" />
+    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/sass/main.sass" />
+    <entry file="file://$PROJECT_DIR$/libs/animate/animate-css.js" />
     <entry file="file://$PROJECT_DIR$/../../Стартовые шаблоны для верстки/_optimized_gulp_sass/app/libs/animate/animate-css.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -619,92 +1066,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/sass/skins/tomato.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1254">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/material/_clean_html/css/sass/skins/tomato.sass" />
+    <entry file="file://$PROJECT_DIR$/material/_clean_html/index.html" />
+    <entry file="file://$PROJECT_DIR$/material/_clean_html/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/css/media.css" />
+    <entry file="file://$PROJECT_DIR$/libs/jqBootstrapValidation/jqBootstrapValidation.js" />
+    <entry file="file://$PROJECT_DIR$/css/sass/skins/tomato.sass" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/sass/main.sass" />
+    <entry file="file://$PROJECT_DIR$/css/skins/purple.css" />
+    <entry file="file://$PROJECT_DIR$/css/sass/skins/purple.sass" />
+    <entry file="file://$PROJECT_DIR$/css/sass/skins/pink.sass" />
+    <entry file="file://$PROJECT_DIR$/css/skins/pink.css" />
+    <entry file="file://$PROJECT_DIR$/css/skins/tomato.css" />
+    <entry file="file://$PROJECT_DIR$/css/sass/skins/blue.sass" />
+    <entry file="file://$PROJECT_DIR$/css/skins/blue.css" />
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-config.php" />
+    <entry file="file://$PROJECT_DIR$/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/_clean_html/index.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1976">
-          <caret line="181" column="42" lean-forward="false" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="42" />
+        <state relative-caret-position="22">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/_clean_html/js/common.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/css/main.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jqBootstrapValidation/jqBootstrapValidation.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/material/libs/theme-options/theme-options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2772">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/material/libs/theme-options/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/css/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="311" column="20" lean-forward="false" selection-start-line="311" selection-start-column="20" selection-end-line="311" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/skins/tomato.sass">
+    <entry file="file://$PROJECT_DIR$/wp-admin/options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="150" column="26" lean-forward="false" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="392" column="37" lean-forward="false" selection-start-line="392" selection-start-column="37" selection-end-line="392" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        <state relative-caret-position="-6722">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#21413#21419#0" expanded="true" />
+            <marker date="1503402768000" expanded="true" signature="9850:9899" ph="SELECT * FRO... wp_options" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/theme-options.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="264">
+          <caret line="126" column="21" lean-forward="false" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
+          <folding>
+            <element signature="e#99#105#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="176" lean-forward="false" selection-start-line="15" selection-start-column="91" selection-end-line="15" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/myTheme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="184" column="50" lean-forward="false" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+          <folding>
+            <element signature="e#24#2043#0#HTML" expanded="false" />
+            <element signature="e#2045#3838#0#HTML" expanded="false" />
+            <element signature="e#3840#5790#0#HTML" expanded="false" />
+            <element signature="e#5792#8158#0#HTML" expanded="false" />
+            <marker date="1514455664290" expanded="true" signature="5005:5519" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="5166:5519" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="5201:5519" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="5244:5519" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="5872:6110" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6022:6102" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6141:8146" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6167:8138" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6188:8129" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6224:7032" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6255:6453" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6484:6678" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="6709:7021" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="7068:8119" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="7191:8108" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="7224:7468" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="7501:7762" ph="..." />
+            <marker date="1514455664290" expanded="true" signature="7795:8061" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
